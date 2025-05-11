@@ -10,3 +10,6 @@ This dataset provides minute-level HTTP request counts over a 30-day period, ide
 ## Overview
 
 The data captures typical traffic variations you’d encounter in production, including periodic spikes, daily peaks, and troughs. Use it to train, validate, and stress-test your autoscaling algorithms.
+
+## License
+This project is licensed under the MIT License
