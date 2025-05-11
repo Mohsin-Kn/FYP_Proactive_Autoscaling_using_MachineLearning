@@ -1,5 +1,3 @@
-[git@github.com](mailto:git@github.com)\:Mohsin-Kn/FYP\_Proactive\_Autoscaling\_using\_MachineLearning.git
-
 # Kubernetes Dashboard
 
 A React-based web application for monitoring and managing Kubernetes resources.
@@ -39,6 +37,7 @@ A React-based web application for monitoring and managing Kubernetes resources.
 
    ```bash
    cd ../backend
+   pip install -r requirements.txt
    uvicorn main:app --reload
    ```
 
