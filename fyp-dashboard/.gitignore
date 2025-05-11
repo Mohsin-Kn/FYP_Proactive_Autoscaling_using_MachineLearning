@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+
+backend/env
+backend/autoscaler_model.keras
+backend/autoscaler_config.json
+backend/api_scaling_actions.log
+backend/last_index.txt
+backend/scaling_actions.log
+backend/scaling_metrics.csv
+backend/main_copy_2.py
+backend/main_copy_3.py
+backend/main_copy.py
+backend/tcn_forecaster.keras
+backend/model_1.keras
+backend/scaler.save
