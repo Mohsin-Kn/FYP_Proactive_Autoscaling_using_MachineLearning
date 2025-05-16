@@ -52,7 +52,7 @@ This project implements a **proactive autoscaling** system:
 
 * **Python 3.7+**, pip
 * **Node.js (v14+)** & **npm (v6+)**
-* **Kubernetes cluster** (minikube, EKS, GKE, etc.)
+* **Kubernetes cluster** (minikube)
 
 ### Root Deployment
 
