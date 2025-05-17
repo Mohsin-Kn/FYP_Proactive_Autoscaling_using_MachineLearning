@@ -28,7 +28,7 @@ The system implements the MAPE loop (Monitor, Analyze, Plan, Execute) to enable 
 ![My Image](images/architecture.png)
 
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 FYP_Proactive_Autoscaling_using_MachineLearning/
