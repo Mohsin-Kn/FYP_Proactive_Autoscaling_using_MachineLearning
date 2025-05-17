@@ -9,25 +9,17 @@ in cloud environments to maintain performance and cost efficiency.
 
 ---
 
-🔖 Table of Contents
+🔖 **Table of Contents**
 
-🏗️ MAPE Architecture
-
-📂 Project Structure
-
-⚙️ Getting Started
-
-🛠️ Module Details
-
-Model & Forecasting
-
-Dataset (Synthetic Traffic)
-
-Dashboard (Monitoring & Control)
-
-🚀 Implementation Steps
-
-📄 License
+- [🏗️ MAPE Architecture](#architecture)
+- [📂 Project Structure](#project-structure)
+- [⚙️ Getting Started](#2-getting-started)
+- [🛠️ Module Details](#3-module-details)
+  - [Model & Forecasting](#31-code-model--forecasting)
+  - [Dataset (Synthetic Traffic)](#32-dataset-synthetic-traffic)
+  - [Dashboard (Monitoring & Control)](#33-fyp-dashboard-monitoring--control)
+- [🚀 Implementation Steps](#5-implementation-steps-implementation-steps)
+- [📄 License](#6-license)
 
 ---
 
