@@ -9,7 +9,27 @@ in cloud environments to maintain performance and cost efficiency.
 
 ---
 
+🔖 Table of Contents
 
+🏗️ MAPE Architecture
+
+📂 Project Structure
+
+⚙️ Getting Started
+
+🛠️ Module Details
+
+Model & Forecasting
+
+Dataset (Synthetic Traffic)
+
+Dashboard (Monitoring & Control)
+
+🚀 Implementation Steps
+
+📄 License
+
+---
 
 ## Architecture
 
