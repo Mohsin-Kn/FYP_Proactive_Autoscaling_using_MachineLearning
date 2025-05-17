@@ -30,7 +30,7 @@ Our system follows the MAPE loop (Monitor, Analyze, Plan, Execute) to anticipate
 
  - 🔍 Monitor: Continuously gather HTTP request metrics via a synthetic data generator and Prometheus.
 
- - 📊 Analyze: Preprocess metrics and run an LSTM forecasting model to predict upcoming load.
+ - 📊 Analyze: Preprocess metrics and run forecasting model to predict upcoming load.
 
  - 🧠 Plan: Determine optimal pod replica counts based on forecast thresholds.
 
@@ -109,7 +109,7 @@ This project implements a **proactive autoscaling** system:
 ### 3.1 Code (Model & Forecasting)
 
 * **Data Preparation**: Scripts to ingest, clean, and feature-engineer traffic metrics.
-* **Model Architectures**: Custom positional encoding and TensorFlow-based forecasting networks.
+* **Model Architectures**: we use Temporal Convolutional Network (TCN) for  forecasting
 * **Training Pipelines**: Hyperparameter tuning, checkpoints, and logging.
 * **Inference & Autoscaling**: Predict next-day traffic and interface with Kubernetes API to scale deployments.
 
