@@ -9,6 +9,25 @@ in cloud environments to maintain performance and cost efficiency.
 
 ---
 
+
+
+## Architecture
+
+
+
+The system follows the MAPE loop (Monitor, Analyze, Plan, Execute) for proactive autoscaling:
+
+Monitor: Synthetic data generator and Prometheus collect real-time traffic metrics.
+
+Analyze: Preprocessing pipeline and forecasting model compute future load predictions.
+
+Plan: Custom autoscaler determines required pod replicas based on forecasted demand thresholds.
+
+Execute: Kubernetes API scales deployments ahead of traffic spikes.
+
+![My Image](images/architecture.png)
+
+
 ## Project Structure
 
 ```
@@ -90,7 +109,7 @@ This project implements a **proactive autoscaling** system:
 * **Synthetic Data Generator**: Produces minute-level request counts over 30 days, with realistic spikes, dips, and noise.
 * **Usage**: Ideal for benchmarking and stress-testing autoscaling logic.
 
-> See `Dataset/README.md` for column definitions and sample code to load the CSV.
+![My Image](images/dataset.png)
 
 ### 3.3 fyp-dashboard (Monitoring & Control)
 
