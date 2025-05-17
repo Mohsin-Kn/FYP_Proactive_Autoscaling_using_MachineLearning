@@ -13,17 +13,15 @@ in cloud environments to maintain performance and cost efficiency.
 
 ## Architecture
 
+Our system follows the MAPE loop (Monitor, Analyze, Plan, Execute) to anticipate and adapt to traffic changes:
 
+   🔍 Monitor: Continuously gather HTTP request metrics via a synthetic data generator and Prometheus.
 
-The system implements the MAPE loop (Monitor, Analyze, Plan, Execute) to enable proactive and intelligent autoscaling:
+   📊 Analyze: Preprocess metrics and run an LSTM forecasting model to predict upcoming load.
 
-🔍 Monitor: Real-time traffic data is continuously collected using a synthetic data generator and Prometheus, capturing key metrics from incoming HTTP requests.
+   🧠 Plan: Determine optimal pod replica counts based on forecast thresholds.
 
-📊 Analyze: The data is processed through a feature engineering pipeline and passed into  forecasting model that predicts future workloads.
-
-🧠 Plan: Based on forecast outputs, a custom autoscaler strategically determines the optimal number of pod replicas required to handle upcoming traffic.
-
-⚙️ Execute: The Kubernetes API is leveraged to scale the application pods up or down in advance, ensuring smooth performance during traffic fluctuations.
+   ⚙️ Execute: Use the Kubernetes API to scale deployments proactively.
 
 ![My Image](images/architecture.png)
 
