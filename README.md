@@ -13,7 +13,7 @@ in cloud environments to maintain performance and cost efficiency.
 
 - [🏗️ MAPE Architecture](#architecture)
 - [📂 Project Structure](#project-structure)
-- [📂 Project Structure](#1-Overview)
+- [📂 Overview](#1-Overview)
 - [⚙️ Getting Started](#2-getting-started)
 - [🛠️ Module Details](#3-module-details)
   - [Model & Forecasting](#31-code-model--forecasting)
