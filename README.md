@@ -17,11 +17,11 @@ Our system follows the MAPE loop (Monitor, Analyze, Plan, Execute) to anticipate
 
  - 🔍 Monitor: Continuously gather HTTP request metrics via a synthetic data generator and Prometheus.
 
-   📊 Analyze: Preprocess metrics and run an LSTM forecasting model to predict upcoming load.
+ - 📊 Analyze: Preprocess metrics and run an LSTM forecasting model to predict upcoming load.
 
-   🧠 Plan: Determine optimal pod replica counts based on forecast thresholds.
+ - 🧠 Plan: Determine optimal pod replica counts based on forecast thresholds.
 
-   ⚙️ Execute: Use the Kubernetes API to scale deployments proactively.
+ - ⚙️ Execute: Use the Kubernetes API to scale deployments proactively.
 
 ![My Image](images/architecture.png)
 
