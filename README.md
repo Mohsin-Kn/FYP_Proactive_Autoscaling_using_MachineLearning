@@ -15,7 +15,7 @@ in cloud environments to maintain performance and cost efficiency.
 
 Our system follows the MAPE loop (Monitor, Analyze, Plan, Execute) to anticipate and adapt to traffic changes:
 
-   🔍 Monitor: Continuously gather HTTP request metrics via a synthetic data generator and Prometheus.
+ - 🔍 Monitor: Continuously gather HTTP request metrics via a synthetic data generator and Prometheus.
 
    📊 Analyze: Preprocess metrics and run an LSTM forecasting model to predict upcoming load.
 
